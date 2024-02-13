@@ -13,8 +13,8 @@ public class BaseSetup {
 	@BeforeClass
 	public void setUp()
 	{
-	//	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Guru\\eclipse-workspace\\SeleniumProject\\drivers\\chromedriver.exe");
-		WebDriverManager.chromedriver().setup();
+	//	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Guru\\eclipse-workspace\\SeleniumProject\\drivers\\chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.get("https://trello.com/home");
 		driver.manage().window().maximize();
